@@ -1,1 +1,56 @@
 I used this file for study after the 2nd week of class
+
+파일 확인
+ls
+ls -a
+ls -al
+
+현재 디렉토리 출력
+pwd
+
+디렉터리로 이동
+cd
+~ 홈
+/ 루트 
+. 현재
+.. 부모
+
+출력(printf)
+echo
+예시 내용을 README.md 파일에 저장
+echo "exampletext" >> README.md 
+README.md 파일 내용 출력
+cat README.md 
+
+  git command
+  git init
+  git status 
+  git add week01.txt
+  git config --global user.email "your@example.com"
+  git config --global user.name "your name"
+  git commit -m "v0"
+  git log
+  git checkout hashcode
+  git checkout -
+  git branch -M main
+  git remote add origin 
+  git remote add origin https://github.com/Jkite0917/test.git
+  git remote -v
+  git push -u origin main
+
+  도움말 명령어
+   .git 저장소 생성
+   파일 상태 확인
+   commit에 파일 변경사항 포함
+   계정 이메일 등록
+   계정 이름 등록
+   "v0"이라는 커밋 생성
+   현재 커밋 내용 확인
+   hashcode 상태로 로드
+   원상복구
+   main 브랜치로 변경  (git branch -M  == git checkout)
+   원격 서버 주소 등록
+   ''
+   원격 서버에 업로드
+   
+   
