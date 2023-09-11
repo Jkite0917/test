@@ -1,18 +1,23 @@
 week02
 - linux command : ls, ls -al, pwd, cd .git, cd .., 
-                  echo "text" >> README.md, cat README.md
+                  echo "text" >> README.md, 
+                  cat README.md (파일 내 텍스트 출력해서 보기)
 - git command
   git init
   git status 
-  git add week01.txt
+  git add week01.txt 
+  (.을 쓰면 현재 위치한 파일 / 파일 이름은 그 파일만)
+  (이후 초록색과 commit 준비가 되었다고 뜸)
   git config --global user.email "your@example.com"
   git config --global user.name "your name"
-  git commit -m "v0"
-  git log
-  git checkout hashcode
-  git checkout -
+  git commit -m "v0" (메모 추가)
+  git log (터미널 확인)
+  git checkout hashcode (백업)
+  git checkout - (원상 복귀)
   git branch -M main
   git remote add origin 
   git remote add origin https://github.com/Jkite0917/test.git
+  (origin값으로 원격 주소 저장)
   git remote -v
   git push -u origin main
+  git clone (adress)   / (뒤에 .을 찍으면 폴더 안에 폴더를 만들지 않고 파일만 가져옴)
